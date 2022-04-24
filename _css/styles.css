@@ -1,0 +1,101 @@
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+
+td,
+th {
+    border: 2px solid transparent;
+    border-collapse: collapse;
+}
+
+th {
+    background: transparent;
+}
+
+.bot {
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.pe {
+    text-align: center;
+}
+
+#divBusca {
+    background-color: #ffffff;
+    border: solid 2px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 10px;
+    font-style: arial;
+    font-size: 18px;
+    border: none;
+    height: auto;
+    width: 95%;
+}
+
+.produtos {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carde {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.preco a3 {
+    color: transparent;
+}
+
+.preco a1 {
+    text-align: right;
+    float: right;
+}
+
+.preco a2 {
+    text-align: left;
+    float: left;
+}
+
+.carinho {
+    float: right;
+    cursor: pointer
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.cadastro{
+    display: flexbox;
+    max-width: 600px;
+    width: auto;
+    margin: 0 auto;
+    
+    /*display: ;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;*/
+}
